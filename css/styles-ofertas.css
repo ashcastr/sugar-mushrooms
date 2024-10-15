@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D1D5E8;
+    color: #463C52;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section.ofertas {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #8B4513;
+}
+
+.oferta-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BEC4E1;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.oferta-item img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.detalle {
+    text-align: left;
+    width: 60%;
+}
+
+.detalle h2 {
+    font-size: 1.5rem;
+    color: #8B4513;
+}
+
+.detalle p {
+    font-size: 1.2rem;
+}
+
+.detalle a {
+    background-color: #8B4513;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.detalle a:hover {
+    background-color: #463C52;
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+}

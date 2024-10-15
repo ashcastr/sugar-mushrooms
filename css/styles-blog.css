@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    background-color: #D1D5E8;
+}
+
+
+header {
+    background-color: #8B4513;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.blog {
+    padding: 50px;
+    background-color: #BEC4E1;
+    color: #463C52;
+    font-family: 'Times New Roman', serif;
+}
+
+.blog h2 {
+    color: #8B4513;
+    font-size: 2.5rem;
+}
+
+.blog .receta {
+    margin-top: 30px;
+}
+
+.receta ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.receta h3 {
+    color: #8B4513;
+    font-size: 1.5rem;
+}
+
+.receta p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+}

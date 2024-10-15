@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D1D5E8;
+    color: #463C52;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section.contacto {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #8B4513;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #8B4513;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: #463C52;
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+}

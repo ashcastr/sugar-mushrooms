@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D1D5E8;
+    color: #463C52;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.carrusel {
+    overflow: hidden; 
+}
+
+
+.productos {
+    padding: 50px;
+    text-align: center;
+    background-color: #D1D5E8;
+}
+
+.productos h2 {
+    color: #8B4513;
+    font-size: 2.5rem;
+}
+
+.carrusel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel img {
+    width: 100%;
+    height: auto;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+
+.prev {
+    left: 10px; 
+}
+
+
+.next {
+    right: 10px; 
+}
+
+.carrusel {
+    display: flex;
+    position: relative;
+    justify-content: space-between; 
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+}
